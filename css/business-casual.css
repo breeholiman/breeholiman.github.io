@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: img src="img/industrial.jpg" center 0px;
+    background: #39150c url(../img/industrial.jpg) no-repeat fixed top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
