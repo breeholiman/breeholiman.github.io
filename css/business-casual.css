@@ -5,8 +5,9 @@
  */
 
 body {
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: #39150c url(../img/industrial.jpg) no-repeat fixed top center;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #f2f2f2;
+    background: #734d26 url(../img/industrial.jpg) no-repeat fixed top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -20,7 +21,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Rock Salt', cursive;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -36,9 +37,13 @@ hr {
     border-color: #999999;
 }
 
-.brand,
+.brand {
+    font-family:;
+}
+
 .address-bar {
     display: none;
+    font-family: 'Gentium Basic', serif;
 }
 
 .navbar-brand {
@@ -60,6 +65,7 @@ hr {
 .brand-before,
 .brand-name {
     text-transform: capitalize;
+    font-family: ;
 }
 
 .brand-before {
@@ -69,6 +75,7 @@ hr {
 .brand-name {
     margin: 0;
     font-size: 4em;
+    font-family: 'Julius Sans One', sans-serif;;
 }
 
 .tagline-divider {
@@ -77,11 +84,19 @@ hr {
     border-color: #999999;
 }
 
-.box {
+div.box {
     margin-bottom: 20px;
     padding: 30px 15px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    background-color: #1a1a1a;
+    border: 1px solid black;
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+div.box p {
+    margin: 5%;
+    font-weight: bold;
+    color: #fff;
 }
 
 .intro-text {
@@ -103,13 +118,16 @@ hr {
 }
 
 footer {
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: #1a1a1a;
+    background: #1a1a1a;
 }
 
 footer p {
     margin: 0;
     padding: 50px 0;
+}
+.col-lg-12 text-center {
+    color: #f2f2f2
 }
 
 @media screen and (min-width:768px) {
@@ -162,8 +180,8 @@ footer p {
 
     .navbar-default {
         border: none;
-        background: #fff;
-        background: rgba(255,255,255,0.9);
+        background: #1a1a1a;
+        background: #1a1a1a;
     }
 
     .nav>li>a {
