@@ -27,6 +27,7 @@ body {
 }
 .sidebar h3 {
 	font-size: 20px;
+	font-color:white;
 	background-color: #adad85;
 }
 .sidebar {
@@ -83,7 +84,7 @@ nav#loginmenu ul li.accNav a, nav#loginmenu ul li.accNav a:visited {
 	font-size: 0.8em;
 }
 nav#loginmenu ul li.accNav a.active {
-	background-color: #C64322
+	background-color:;
 }
 nav#loginmenu ul li.accNav a:hover {
 	background-color: rgba(252,251,243,0.7);
@@ -114,7 +115,7 @@ nav#loginmenu ul li.accNav:before, nav#loginmenu ul li input#search::before {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
 	font-size: 25px;
-	color: #000 ;
+	color: white ;
 	display: block;
 	transition: 0.3s
 }
@@ -135,36 +136,38 @@ nav#loginmenu ul li.accNav:before, nav#loginmenu ul li input#search::before {
 section div.panel_01{
 	float: left;
 	position: relative;
-	width: 250px;
-	height: 1570px;
+	width: 280px;
+	height: 1640px;
 	margin: 0 0.5em 2.0em 0.5em;
 	padding:1.0em;
 	background-color: #dfbe9f;
 	border: #ccc solid 1px;
 	display: block;
-}
-div.info {
-	background-color: #996600;
-	height:75px;
-	width: 100%;
-	text-align:center;
-	padding: 0;
-	font-size: 15px;
-	display: block;
-	float: right;
 }
 section div.panel_02{
 	float: left;
 	position: relative;
-	width: 250px;
-	height: 1570px;
+	width: 260px;
+	height: 1640px;
+	margin: 0 0.5em 2.0em 0.5em;
+	padding:1.0em;
+	background-color: #996600;
+	border: #ccc solid 1px;
+	display: block;
+}
+section div.panel_03{
+	float: left;
+	position: relative;
+	width: 260px;
+	height: 1640px;
 	margin: 0 0.5em 2.0em 0.5em;
 	padding:1.0em;
 	background-color: #dfbe9f;
 	border: #ccc solid 1px;
 	display: block;
 }
-.button {
+
+button {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -179,51 +182,17 @@ section div.panel_02{
     cursor: pointer;
 }
 
-.button1 {
-    background-color: white;
-    color: black;
-    border: 2px solid #e7e7e7;
+button {
+    background-color: #d9b18c; 
+    color: black; 
+    border: 2px solid #4CAF50;
 }
 
-.button1:hover {
-	background-color: #e7e7e7;
+button:hover {
+    background-color: #4CAF50;
+    color: white;
 }
 
-.img_container {
-	position: relative;
-	width: 50%;
-}
-.img-responsive img-border img-full {
-	display: block;
-	width: 100%;
-	height: auto;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-.img_container:hover .overlay {
-  opacity: 1;
-}
-
-.overlay_text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
 
 /*footer*/
 .footer {
