@@ -21,11 +21,13 @@ body {
 }
 /*header*/
 .head_title {
+	font-family: 'Permanent Marker', cursive;
 	font-size: 40px;
 	color: #adad85;
 	background-color: black;
 }
 .sidebar h3 {
+	font-family: 'Amatic SC', cursive;
 	font-size: 20px;
 	font-color:white;
 	background-color: #adad85;
@@ -35,12 +37,14 @@ body {
 	position: relative;
 	width: 250px;
 	margin: 0 0.5em 2.
+	font-family: 'Amatic SC', cursive;
 	font-size: 15px;
 	background-color: white;
 }
 /*login menu*/
 nav {
 	background-color: black;
+	font-family: 'Amatic SC', cursive;
 	letter-spacing: 0.04em;
 	font-size: 1.7;
 	padding: 1.0em 1.0em 0.5em;
@@ -114,6 +118,7 @@ nav#loginmenu ul li.accNav:before, nav#loginmenu ul li input#search::before {
 .sidenav a {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
+	font-family: 'Amatic SC', cursive;
 	font-size: 25px;
 	color: white ;
 	display: block;
@@ -131,6 +136,7 @@ nav#loginmenu ul li.accNav:before, nav#loginmenu ul li input#search::before {
 	display: inline-block;
 	box-shadow: 1px 1px 5px #777;
 	opacity: 15%;
+	font-family: 'Amatic SC', cursive;
 	font-size: 25px;
 }
 section div.panel_01{
@@ -143,28 +149,33 @@ section div.panel_01{
 	background-color: #dfbe9f;
 	border: #ccc solid 1px;
 	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 90%
 }
 section div.panel_02{
 	float: left;
 	position: relative;
 	width: 260px;
-	height: 1640px;
+	height: 940px;
 	margin: 0 0.5em 2.0em 0.5em;
 	padding:1.0em;
 	background-color: #996600;
 	border: #ccc solid 1px;
 	display: block;
+	font-family: 'Open Sans', sans-serif;
 }
 section div.panel_03{
 	float: left;
 	position: relative;
 	width: 260px;
-	height: 1640px;
+	height: 1720px;
 	margin: 0 0.5em 2.0em 0.5em;
 	padding:1.0em;
 	background-color: #dfbe9f;
 	border: #ccc solid 1px;
 	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 90%
 }
 
 button {
