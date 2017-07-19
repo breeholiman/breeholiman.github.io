@@ -1,6 +1,8 @@
 body{
 	background: url(../../img/bg2_80.jpg);
 	background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 	padding-left: 45px;
 	padding-right: 45px;
 	font-size: 100%;
