@@ -172,13 +172,14 @@ PlayState.preload = function () {
     this.game.load.spritesheet('spider', 'images/spider.png', 42, 32);
     this.game.load.spritesheet('hero', 'images/hero_2.png', 36, 42);
     this.game.load.spritesheet('door', 'images/door.png', 42, 66);
-    this.game.load.spritesheet('icon:key', 'images/key_icon_2.png', 34, 30);
+    this.game.load.spritesheet('icon:key', 'images/key_icon_2.png', 22, 16);
 
     this.game.load.audio('sfx:jump', 'audio/jump.wav');
     this.game.load.audio('sfx:coin', 'audio/coin.wav');
     this.game.load.audio('sfx:stomp', 'audio/stomp.wav');
     this.game.load.audio('sfx:key', 'audio/key.wav');
     this.game.load.audio('sfx:door', 'audio/door.wav');
+    this.game.load.audio('sfx:bgm', 'audio/bgm_2.mp3');
 };
 
 PlayState.create = function () {
@@ -382,7 +383,6 @@ myAudio.addEventListener('ended', function() {
   this.play();
 }, false);
 myAudio.play();
-
 // =============================================================================
 // entry point
 // =============================================================================
